@@ -1,0 +1,37 @@
+baseURL = "https://orangecrab-fpga.github.io/"
+languageCode = "en-us"
+title = "ButterStick Docs"
+theme = "book"
+themesDir = "./themes"
+
+enableGitInfo = true
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+
+[params]
+  BookToC = false
+  BookMenuBundle = '/menu'
+
+  BookSection = 'docs'
+  BookDateFormat = 'Jan 2, 2006'
+  BookSearch = true
+#  BookLogo = 'crab.svg'
+
+[params.footer]
+	copyright = "[gregdavill](https://twitter.com/gregdavill)"
+	show_powered_by = true
+
+[markup.goldmark.renderer]
+    unsafe= true
+  
+[markup.highlight]
+    codeFences = true
+    pygmentscodefences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "friendly"
+    background = "#2D2E27"

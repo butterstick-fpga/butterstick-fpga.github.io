@@ -1,0 +1,3 @@
+[submodule "docs/hugo-files/themes/book"]
+	path = docs/hugo-files/themes/book
+	url = https://github.com/gregdavill/hugo-book.git
